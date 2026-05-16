@@ -1,0 +1,3 @@
+<?php
+echo 'uploads folder untuk menyimpan file gambar';
+?>

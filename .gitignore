@@ -1,0 +1,40 @@
+.gitignore
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+contributing/temp/*
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+.env
+.env.local
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Upload files
+uploads/*
+!uploads/.gitkeep
+!uploads/artikel/.gitkeep
+!uploads/galeri/.gitkeep
+
+# Config files (untuk production)
+application/config/database.php
+application/config/config.php
