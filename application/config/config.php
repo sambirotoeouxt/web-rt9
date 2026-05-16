@@ -1,0 +1,37 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$config['base_url'] = 'http://localhost/web-rt9/';
+$config['index_page'] = '';
+$config['uri_protocol'] = 'REQUEST_URI';
+$config['url_suffix'] = '';
+$config['language'] = 'english';
+$config['charset'] = 'UTF-8';
+$config['enable_hooks'] = FALSE;
+$config['log_threshold'] = 0;
+$config['log_path'] = '';
+$config['log_file_extension'] = '';
+$config['encryption_key'] = 'your-secret-key-here';
+$config['sess_driver'] = 'files';
+$config['sess_cookie_name'] = 'ci_session';
+$config['sess_expiration'] = 7200;
+$config['sess_save_path'] = sys_get_temp_dir();
+$config['sess_match_ip'] = FALSE;
+$config['sess_time_to_update'] = 300;
+$config['cookie_prefix'] = '';
+$config['cookie_domain'] = '';
+$config['cookie_path'] = '/';
+$config['cookie_secure'] = FALSE;
+$config['cookie_httponly'] = FALSE;
+$config['standardize_newlines'] = FALSE;
+$config['global_xss_filtering'] = FALSE;
+$config['csrf_protection'] = TRUE;
+$config['csrf_token_name'] = 'csrf_token';
+$config['csrf_cookie_name'] = 'csrf_cookie';
+$config['csrf_expire'] = 7200;
+$config['csrf_regenerate'] = TRUE;
+$config['csrf_exclude_uris'] = array();
+$config['compression_output'] = '';
+$config['time_reference'] = 'local';
+$config['rewrite_short_tags'] = FALSE;
+$config['proxy_ips'] = '';
